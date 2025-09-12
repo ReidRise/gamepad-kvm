@@ -8,7 +8,7 @@ echo 0x0420 > idProduct
 mkdir strings/0x409
 echo "0A55FACE" > strings/0x409/serialnumber
 echo "Reid Rise" > strings/0x409/manufacturer
-echo "Gamepad KVM" > strings/0x409/product
+echo "Gameview KVM" > strings/0x409/product
 
 mkdir configs/c.1
 mkdir functions/hid.usb0
