@@ -1,4 +1,5 @@
 modprobe libcomposite
+mount -t configfs none /sys/kernel/config
 mkdir -p /sys/kernel/config/usb_gadget/kvm
 cd /sys/kernel/config/usb_gadget/kvm
 
