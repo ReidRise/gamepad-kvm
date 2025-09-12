@@ -11,9 +11,9 @@ echo "Gamepad KVM" > strings/0x409/product
 
 mkdir configs/c.1
 mkdir functions/hid.usb0
-echo 1 > functions/hid.usb0/protocol
-echo 1 > functions/hid.usb0/subclass
-echo 8 > functions/hid.usb0/report_length
+echo 0 > functions/hid.usb0/protocol
+echo 0 > functions/hid.usb0/subclass
+echo 64 > functions/hid.usb0/report_length
 # HID report descriptor for gamepad
 cat /etc/gamepad-report-desc > functions/hid.usb0/report_desc
 
