@@ -1,1 +1,1 @@
-
+include $(sort $(wildcard $(BR2_EXTERNAL_GAMEPAD_KVM_PATH)/package/*/*.mk))

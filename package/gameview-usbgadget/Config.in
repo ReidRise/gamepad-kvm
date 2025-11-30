@@ -1,0 +1,2 @@
+config GAMEPAD_KVM_USBGADGET
+    bool "Gameview Usbgadget"

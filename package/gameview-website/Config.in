@@ -1,0 +1,2 @@
+config GAMEPAD_KVM_WEBSITE
+    bool "Gameview Website"

@@ -1,1 +1,3 @@
-
+source "$BR2_EXTERNAL_GAMEPAD_KVM_PATH/package/gameview-backend/Config.in"
+source "$BR2_EXTERNAL_GAMEPAD_KVM_PATH/package/gameview-usbgadget/Config.in"
+source "$BR2_EXTERNAL_GAMEPAD_KVM_PATH/package/gameview-website/Config.in"
